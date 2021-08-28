@@ -2,6 +2,15 @@
   margin: 0;
   padding: 0;
 }
+body {
+  background-image: url('https://logic-designs.ae/wp-content/uploads/2018/12/contact-background.png');
+  background-color: #cccccc;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #464646;
+}
 #navbar {
   background-color: #0289ff;
   display: flex;
@@ -43,6 +52,38 @@
   margin-right: 15px;
   border-radius: 5px;
 }
+#touch {
+  color: white;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  font-size: 32px;
+  margin-top: -300px;
+  margin-left: -160px;
+}
+.contact {
+  color: white;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  font-size: 22px;
+  margin-top: -200px;
+  margin-left: -190px;
+}
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: DodgerBlue;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
 @media screen and (max-width: 600px) {
   #nav {
     position: fixed;
@@ -75,65 +116,6 @@
   }
   #heading img {
     height: inherit;
-    width: 100%;
-  }
-  #cat-section {
-    background: red;
-    display: flex;
-    flex-direction: column;
-    /* width: 150%; */
-  }
-  #catergory {
-    height: 150px;
-    width: 150%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    overflow-x: hidden;
-    overflow: scroll;
-  }
-  .cat-box {
-    background-color: aqua;
-    height: 100px;
-    width: 300px;
-    display: flex;
-    align-items: center;
-    padding: 10px;
-    margin: 0px 5px;
-  }
-  .cat-box img {
-    height: auto;
-    width: 100%;
-  }
-  #best-seller,
-  #cat-section h2 {
-    text-align: center;
-  }
-  #best-seller {
-    background-color: lightblue;
-  }
-  #best-phone-grp {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-  }
-  .best-phone {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    height: 200px;
-    width: 200px;
-    flex-grow: 2;
-    background: white;
-    border: 1px solid black;
-  }
-  .top-seller-img {
-    height: auto;
-    width: 100px;
-    margin: auto;
-  }
-  .best-phone img {
-    width: 100%;
-    height: auto;
+    width: auto;
   }
 }
