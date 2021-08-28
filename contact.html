@@ -10,7 +10,7 @@
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet"
     />
-    <title>Xphone | Home</title>
+    <title>Xphone | Conntact Us</title>
   </head>
   <body>
     <div id="navbar">
@@ -22,49 +22,69 @@
       </div>
       <div id="nav">
         <ul id="nav-item-group">
-          <li class="nav-item" onclick="w_close()">
+          <li class="nav-item close" onclick="w_close()">
             <div id="close">
               <p>Close</p>
               <span class="material-icons md-left">cancel</span>
             </div>
           </li>
-          <li class="nav-item active">Home</li>
-          <li class="nav-item">About</li>
-          <li class="nav-item">Contact</li>
-          <li class="nav-item">Feature</li>
-          <li class="nav-item">Gallery</li>
+          <li class="nav-item"><a href="./home.html">Home</a></li>
+          <li class="nav-item"><a href="./about.html">About</a></li>
+          <li class="nav-item active"><a href="./contact.html">Contact</a></li>
+          <li class="nav-item"><a href="./feature.html">Feature</a></li>
+          <li class="nav-item"><a href="./gallary.html">Gallery</a></li>
         </ul>
       </div>
       <h3 id="c-name">Xphone</h3>
       <button id="btn-login">Login</button>
     </div>
     <div id="touch">
-      <h2>GET IN TOUCH</2>
-    </div>
-    <div class="contact">
-      
-        <label id="phone"><span class="material-icons">
-          add_ic_call
-          </span> Phone : +022-981 2512 888 </label><br><br>
-        <label id="email"><span class="material-icons">
-          email
-          </span> Email : xphone@xphone.com </label><br><br>
-        <label id="adress"><span class="material-icons">
-          room
-          </span>Address: Xphone Mobiles Limited ,Xphone HQ , Thane , Mumbai </label><br><br>  
+      <h2>GET IN TOUCH</h2>
     </div>
     <div class="flex-container">
-      <div>1</div>
-      <div>2</div> 
+      <div class="form">
+        <form action="/action_page.php">
+          <input
+            type="text"
+            class="form-input"
+            name="firstname"
+            placeholder="Your name.."
+          />
+          <input
+            type="text"
+            class="form-input"
+            name="email"
+            placeholder="Your Email Id"
+          />
+          <input
+            type="text"
+            class="form-input"
+            name="phone"
+            placeholder="Your Phone No."
+          />
+          <input
+            type="text"
+            class="form-input"
+            name="message"
+            placeholder="Your Message"
+          />
+          <button id="form-button">Submit</button>
+        </form>
+      </div>
+      <div class="contact">
+        <label id="phone"
+          ><span class="material-icons"> add_ic_call </span> Phone : +022-981
+          2512 888 </label
+        ><br /><br />
+        <label id="email"
+          ><span class="material-icons"> email </span> Email : xphone@xphone.com </label
+        ><br /><br />
+        <label id="adress"
+          ><span class="material-icons"> room </span>Address: Xphone Mobiles
+          Limited ,Xphone HQ , Thane , Mumbai </label
+        ><br /><br />
+      </div>
     </div>
   </body>
-  <script>
-    function w_open() {
-      document.getElementById('nav').style.left = '0px';
-    }
-
-    function w_close() {
-      document.getElementById('nav').style.left = '-250px';
-    }
-  </script>
+  <script src="./script.js"></script>
 </html>
