@@ -42,6 +42,8 @@
   border: 1px solid gray;
   margin: 30px 10px;
   padding: 10px;
+  background-color: rgb(218, 253, 255);
+  box-shadow: 4px 5px 15px #8888;
 }
 #form-button {
   background-color: red;

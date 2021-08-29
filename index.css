@@ -7,6 +7,7 @@
   padding: 10px;
   margin: 10px;
   border-radius: 5px;
+  box-shadow: 4px 5px 15px #8888;
 }
 
 #heading img {
@@ -22,6 +23,7 @@
   align-items: center;
   border: 1px solid gray;
   border-radius: 5px;
+  box-shadow: 4px 5px 15px #8888;
 }
 
 #catergory {
@@ -43,6 +45,8 @@
   margin: 10px;
   border: 1px solid gray;
   border-radius: 10px;
+  background-color: rgb(218, 253, 255);
+  box-shadow: 4px 5px 15px #8888;
 }
 .cat-box img {
   height: auto;
@@ -62,6 +66,7 @@
   border: 1px solid gray;
   border-radius: 5px;
   margin: 10px;
+  box-shadow: 4px 5px 15px #8888;
 }
 #best-phone-grp {
   display: flex;
@@ -81,6 +86,7 @@
   border-radius: 2px;
   margin: 6px;
   padding-bottom: 15px;
+  box-shadow: 4px 5px 15px #8888;
 }
 .top-seller-img {
   height: auto;

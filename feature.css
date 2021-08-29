@@ -25,6 +25,7 @@
   border: 1px solid gray;
   border-radius: 5px;
   border-radius: 15px;
+  box-shadow: 4px 5px 15px #8888;
 }
 .feature-img {
   display: flex;

@@ -34,6 +34,7 @@
   padding: 20px 30px;
   font-size: 16px;
   text-align: center;
+  box-shadow: 4px 5px 15px #8888;
 }
 .gallary-box h2 {
   margin: 15px 0px;

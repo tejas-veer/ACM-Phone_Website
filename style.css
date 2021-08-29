@@ -34,19 +34,27 @@ body {
   list-style: none;
   padding: 10px 10px;
   font-size: 18px;
-  margin: 0 5px;
+  margin: 0 3px;
+  cursor: pointer;
+  /* background-color: rgb(101, 228, 228);
+  border-radius: 5px; */
 }
 .nav-item a {
   text-decoration: none;
-  font-style: normal;
-  color: black;
 }
 .nav-item:hover {
   background-color: rgb(188, 224, 255);
   border-radius: 5px;
+  text-decoration: underline;
+}
+.nav-item:active {
+  background-color: rgb(188, 224, 255);
+  border-radius: 5px;
+  text-decoration: underline;
 }
 .active {
-  color: green;
+  color: white;
+  text-decoration: underline;
 }
 #c-name {
   display: flex;
@@ -63,7 +71,7 @@ body {
   height: 30px;
   width: 100px;
   border-radius: 5px;
-  margin-right: 3rem;
+  margin-right: 2rem;
 }
 #footer p {
   display: block;
@@ -89,6 +97,13 @@ h2 {
     border-radius: 4px;
     transition: all 0.5s ease;
   }
+  .active {
+    color: rgb(0, 156, 196);
+    text-decoration: underline;
+  }
+  #c-name {
+    margin: 0;
+  }
   #nav-item-group {
     display: block;
   }
@@ -96,18 +111,23 @@ h2 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    color: red;
   }
   .nav-item a {
     padding: 10px 0;
     padding-right: 155px;
   }
+  #icon,
   .material-icons.md-48 {
     display: block;
-    margin-left: 15px;
+    margin-left: 10px;
     font-size: 45px;
     color: #00174e;
+    cursor: pointer;
   }
-
+  #btn-login {
+    margin-right: 1rem;
+  }
   #footer p {
     font-size: 10px;
   }
