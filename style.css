@@ -7,7 +7,7 @@ body {
   margin-top: 60px;
 }
 #navbar {
-  background-color: #1cb7ff;
+  background-color: #00aeff;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -23,7 +23,6 @@ body {
 
 #close {
   display: none;
-  color: black;
 }
 
 #nav-item-group {
@@ -77,7 +76,7 @@ body {
   display: block;
   text-align: center;
   padding: 10px 0;
-  background-color: rgb(50, 204, 255);
+  background-color: #00aeff;
   color: white;
   font-size: 17px;
   font-weight: bold;
@@ -99,7 +98,6 @@ h2 {
   }
   .active {
     color: rgb(0, 156, 196);
-    text-decoration: underline;
   }
   #c-name {
     margin: 0;
