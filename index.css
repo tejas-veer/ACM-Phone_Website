@@ -18,14 +18,7 @@
     flex-direction: column;
     justify-content: space-evenly;
   }
-  #c-name {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-  }
-  #c-name img {
-    width: 30px;
-  }
+
   #heading {
     /* height: 250px; */
     display: flex;
@@ -61,7 +54,6 @@
     overflow-x: scroll;
   }
   .cat-box {
-    background-color: rgb(196, 196, 196);
     height: 50px;
     width: 50px;
     display: flex;
@@ -70,6 +62,7 @@
     justify-content: center;
     padding: 7px;
     margin: 10px;
+    border: 1px solid gray;
     border-radius: 10px;
   }
   .cat-box img {

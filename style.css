@@ -12,6 +12,8 @@
 }
 .material-icons.md-48 {
   display: none;
+  font-size: 45px;
+  color: #00174e;
 }
 
 #close {
@@ -76,7 +78,8 @@
     justify-content: space-between;
   }
   .nav-item a {
-    padding-right: 150px;
+    padding: 10px 0;
+    padding-right: 155px;
   }
   .material-icons.md-48 {
     display: block;
@@ -85,6 +88,14 @@
   }
   #c-name {
     display: block;
+  }
+  #c-name {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  #c-name img {
+    width: 30px;
   }
   #footer p {
     font-size: 10px;
