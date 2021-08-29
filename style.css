@@ -1,4 +1,7 @@
-@import url(./variables.css);
+:root {
+  --theme-color: rgb(123, 255, 130);
+  background-image: linear-gradient(to right, #ffd26f, #3677ff);
+}
 
 * {
   margin: 0;
@@ -67,9 +70,11 @@ body {
 }
 
 #btn-login {
-  background-color: rgb(209, 209, 209);
-  height: 30px;
+  /* background-color: rgb(154, 147, 255); */
+  background-image: linear-gradient(to right, red, yellow);
+  height: 35px;
   width: 100px;
+  border: 2px solid black;
   border-radius: 5px;
   margin-right: 2rem;
 }
