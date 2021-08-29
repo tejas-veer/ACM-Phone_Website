@@ -1,11 +1,18 @@
+#heading {
+  height: 300px;
+}
+#heading img {
+  height: auto;
+  width: 100%;
+}
 @media screen and (max-width: 600px) {
   #heading {
     height: 300px;
-    background-color: green;
   }
   #heading img {
-    height: inherit;
-    width: 100%;
+    margin: 30px 2%;
+    height: auto;
+    width: 96%;
   }
   #cat-section {
     background: rgb(165, 165, 165);
