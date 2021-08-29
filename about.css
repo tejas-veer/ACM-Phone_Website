@@ -17,12 +17,13 @@
   flex-direction: column;
 }
 #about-para {
-  background-color: red;
   width: 80%;
   margin: 25px auto;
+  border: 1px solid gray;
+  border-radius: 5px;
 }
 #about-para p {
-  color: rgb(255, 255, 255);
+  color: gray;
   font-size: 20px;
   margin: 30px 20px;
   text-justify: newspaper;

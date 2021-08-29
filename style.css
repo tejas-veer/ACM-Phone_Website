@@ -4,7 +4,7 @@
   font-family: 'Roboto Mono', monospace;
 }
 #navbar {
-  background-color: #0289ff;
+  background-color: #1cb7ff;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -64,7 +64,7 @@
     left: -250px;
     width: 250px;
     height: 100%;
-    background: #042331;
+    background: #1cb7ff;
     transition: all 0.5s ease;
   }
   #nav-item-group {
