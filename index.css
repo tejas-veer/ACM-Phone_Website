@@ -1,16 +1,95 @@
 #heading {
-  height: 270px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   border: 1px solid gray;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
 }
 
 #heading img {
   height: auto;
   width: 100%;
-  object-fit: cover;
+}
+#cat-section {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  /* width: 150%; */
+  justify-content: space-evenly;
+  align-items: center;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+#catergory {
+  /* height: 150px; */
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.cat-box {
+  height: 50px;
+  width: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 7px;
+  margin: 10px;
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+.cat-box img {
+  height: auto;
+  width: 100%;
+}
+#apple-logo {
+  width: 80%;
+}
+#best-seller h2,
+#cat-section h2 {
+  text-align: center;
+  color: rgb(58, 58, 58);
+  margin: 15px 0px;
+}
+#best-seller {
+  padding: 5px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  margin: 10px;
+}
+#best-phone-grp {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.best-phone {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 280px;
+  width: 170px;
+  flex-grow: 2;
+  background: white;
+  border: 1px solid gray;
+  border-radius: 2px;
+  margin: 6px;
+  padding-bottom: 15px;
+}
+.top-seller-img {
+  height: auto;
+  width: 100px;
+  margin: auto;
+}
+.best-phone img {
+  width: 100%;
+  height: auto;
 }
 @media screen and (max-width: 600px) {
   body {
@@ -20,7 +99,7 @@
   }
 
   #heading {
-    /* height: 250px; */
+    height: 270px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -32,84 +111,5 @@
   }
   #heading img {
     border-radius: 7px;
-  }
-  #cat-section {
-    margin: 10px;
-    display: flex;
-    flex-direction: column;
-    /* width: 150%; */
-    justify-content: space-evenly;
-    align-items: center;
-    border: 1px solid gray;
-    border-radius: 5px;
-  }
-
-  #catergory {
-    /* height: 150px; */
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    overflow-x: scroll;
-  }
-  .cat-box {
-    height: 50px;
-    width: 50px;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    padding: 7px;
-    margin: 10px;
-    border: 1px solid gray;
-    border-radius: 10px;
-  }
-  .cat-box img {
-    height: auto;
-    width: 100%;
-  }
-  #apple-logo {
-    width: 80%;
-  }
-  #best-seller h2,
-  #cat-section h2 {
-    text-align: center;
-    color: rgb(58, 58, 58);
-    margin: 15px 0px;
-  }
-  #best-seller {
-    padding: 5px;
-    border: 1px solid gray;
-    border-radius: 5px;
-    margin: 10px;
-  }
-  #best-phone-grp {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-  }
-  .best-phone {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    height: 280px;
-    width: 170px;
-    flex-grow: 2;
-    background: white;
-    border: 1px solid black;
-    border-radius: 2px;
-    margin: 6px;
-    padding-bottom: 15px;
-  }
-  .top-seller-img {
-    height: auto;
-    width: 100px;
-    margin: auto;
-  }
-  .best-phone img {
-    width: 100%;
-    height: auto;
   }
 }

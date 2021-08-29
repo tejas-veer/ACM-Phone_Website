@@ -3,5 +3,5 @@ function w_open() {
   }
 
   function w_close() {
-    document.getElementById('nav').style.left = '-250px';
+    document.getElementById('nav').style.left = '-255px';
   }

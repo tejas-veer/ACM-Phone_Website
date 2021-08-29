@@ -15,16 +15,15 @@
 #about {
   display: flex;
   flex-direction: column;
-}
-#about-para {
   width: 80%;
-  margin: 25px auto;
+  margin: 35px auto;
   border: 1px solid gray;
   border-radius: 5px;
 }
+
 #about-para p {
-  color: gray;
+  color: black;
   font-size: 20px;
   margin: 30px 20px;
-  text-justify: newspaper;
+  text-align: center;
 }
