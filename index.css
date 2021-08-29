@@ -45,7 +45,7 @@
   margin: 10px;
   border: 1px solid gray;
   border-radius: 10px;
-  background-color: rgb(218, 253, 255);
+  background-color: var(--theme-color);
   box-shadow: 4px 5px 15px #8888;
 }
 .cat-box img {
@@ -81,7 +81,7 @@
   height: 280px;
   width: 170px;
   flex-grow: 2;
-  background-color: rgb(218, 253, 255);
+  background-color: var(--theme-color);
   border: 1px solid gray;
   border-radius: 2px;
   margin: 6px;

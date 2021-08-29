@@ -28,7 +28,7 @@
   border: 2px solid black;
   border-radius: 15px;
   margin: 10px;
-  background-color: rgb(194, 240, 243);
+  background-color: var(--theme-color);
   /* height: 300px; */
   width: 250px;
   padding: 20px 30px;

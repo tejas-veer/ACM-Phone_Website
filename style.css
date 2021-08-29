@@ -1,3 +1,5 @@
+@import url(./variables.css);
+
 * {
   margin: 0;
   padding: 0;
@@ -16,8 +18,7 @@ body {
   top: 0px;
   width: 100%;
 }
-#icon,
-.material-icons.md-48 {
+#icon {
   display: none;
 }
 
@@ -106,6 +107,7 @@ h2 {
     display: block;
   }
   #close {
+    width: 227px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
