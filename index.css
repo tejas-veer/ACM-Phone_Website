@@ -85,10 +85,12 @@
     width: 100%;
   }
   #cat-section {
-    background: rgb(212, 212, 212);
+    background: rgb(165, 165, 165);
     display: flex;
     flex-direction: column;
     /* width: 150%; */
+    justify-content: space-evenly;
+    align-items: center;
   }
   #catergory {
     height: 150px;
@@ -100,7 +102,7 @@
   }
   .cat-box {
     background-color: rgb(196, 196, 196);
-    height: 100px;
+    height: 70px;
     width: 300px;
     display: flex;
     align-items: center;
