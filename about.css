@@ -1,12 +1,12 @@
 body {
-  background-image: url('https://image1.masterfile.com/getImage/ODQ2LTAyNzk2MDgwZW4uMDAwMDAwMDA=AP7J8X/846-02796080en_Masterfile.jpg');
-  background-color: #cccccc;
+  /* background-image: url('https://image1.masterfile.com/getImage/ODQ2LTAyNzk2MDgwZW4uMDAwMDAwMDA=AP7J8X/846-02796080en_Masterfile.jpg'); */
+  background-color: gainsboro;
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  background-color: #464646;
   opacity: 0.9;
+  overflow-y: scroll;
 }
 #heading {
   text-align: center;
@@ -17,7 +17,12 @@ body {
   display: flex;
   flex-direction: column;
 }
-#about p {
+#about-para {
+  background-color: red;
+  width: 80%;
+  margin: 25px auto;
+}
+#about-para p {
   color: rgb(255, 255, 255);
   font-size: 20px;
   margin: 30px 60px;

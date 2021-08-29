@@ -48,6 +48,15 @@
   margin-right: 15px;
   border-radius: 5px;
 }
+#footer p {
+  display: block;
+  text-align: center;
+  padding: 10px 0;
+  background-color: rgb(50, 204, 255);
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
 @media screen and (max-width: 600px) {
   #nav {
     position: fixed;
@@ -66,7 +75,9 @@
     flex-direction: row;
     justify-content: space-between;
   }
-
+  .nav-item a {
+    padding-right: 150px;
+  }
   .material-icons.md-48 {
     display: block;
     font-size: 48px;
