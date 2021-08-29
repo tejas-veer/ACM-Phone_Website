@@ -76,7 +76,7 @@
   height: 280px;
   width: 170px;
   flex-grow: 2;
-  background: white;
+  background-color: rgb(218, 253, 255);
   border: 1px solid gray;
   border-radius: 2px;
   margin: 6px;
@@ -99,7 +99,7 @@
   }
 
   #heading {
-    height: 270px;
+    /* height: 270px; */
     display: flex;
     flex-direction: column;
     justify-content: center;

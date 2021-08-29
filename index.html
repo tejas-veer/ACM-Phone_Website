@@ -13,7 +13,6 @@
     <title>Xphone | Home</title>
   </head>
   <body>
-    <header></header>
     <div id="navbar">
       <div id="icon">
         <span class="material-icons-outlined">
@@ -21,13 +20,14 @@
           <span onclick="w_open()" class="material-icons md-48">menu</span>
         </span>
       </div>
+      <div id="logo">
+        <h3 id="c-name"><img src="./img/logo.png" alt="" /> phone</h3>
+      </div>
       <div id="nav">
         <ul id="nav-item-group">
-          <li class="nav-item" onclick="w_close()">
-            <div id="close">
-              <p>Close</p>
-              <span class="material-icons md-left">cancel</span>
-            </div>
+          <li class="nav-item" id="close" onclick="w_close()">
+            <p>Close</p>
+            <span class="material-icons md-left">cancel</span>
           </li>
           <li class="nav-item active"><a href="./index.html">Home</a></li>
           <li class="nav-item"><a href="./about.html">About</a></li>
@@ -36,9 +36,7 @@
           <li class="nav-item"><a href="./gallary.html">Gallery</a></li>
         </ul>
       </div>
-      <h3 id="c-name">
-        <span><img src="./img/logo.png" alt="" /></span> phone
-      </h3>
+
       <button id="btn-login">Login</button>
     </div>
     <div id="heading">
