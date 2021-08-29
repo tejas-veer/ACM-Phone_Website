@@ -1,18 +1,29 @@
 #heading {
   height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
+
 #heading img {
   height: auto;
   width: 100%;
+  object-fit: cover;
 }
 @media screen and (max-width: 600px) {
   #heading {
     height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   #heading img {
-    margin: 30px 2%;
-    height: auto;
+    /* margin: 30px 2%; */
+    /* height: auto;
     width: 96%;
+    object-fit: cover; */
   }
   #cat-section {
     background: rgb(165, 165, 165);
