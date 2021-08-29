@@ -4,6 +4,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  border: 1px solid gray;
 }
 
 #heading img {
@@ -17,17 +18,27 @@
     flex-direction: column;
     justify-content: space-evenly;
   }
+  #c-name {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  #c-name img {
+    width: 30px;
+  }
   #heading {
     /* height: 250px; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border: 1px solid gray;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
   }
   #heading img {
-    margin: 1rem;
-
-    border-radius: 10px;
+    border-radius: 7px;
   }
   #cat-section {
     margin: 10px;
