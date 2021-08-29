@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* body {
+  background-image: url('https://image1.masterfile.com/getImage/ODQ2LTAyNzk2MDgwZW4uMDAwMDAwMDA=AP7J8X/846-02796080en_Masterfile.jpg');
+  background-color: #cccccc;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #464646;
+  opacity: 0.9;
+} */
+#navbar {
+  background-color: #0289ff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 50px;
+}
+.material-icons.md-48 {
+  display: none;
+}
+
+#close {
+  display: none;
+}
+
+#nav-item-group {
+  display: flex;
+  align-items: center;
+}
+.nav-item {
+  list-style: none;
+  padding: 10px 15px;
+  font-size: 20px;
+  color: white;
+}
+.nav-item a {
+  text-decoration: none;
+}
+.nav-item:hover {
+  background-color: rgb(188, 224, 255);
+}
+.active {
+  background-color: rgb(86, 230, 255);
+  padding-bottom: 15px;
+}
+#c-name {
+  display: none;
+}
+#btn-login {
+  background-color: rgb(176, 177, 223);
+  height: 30px;
+  width: 100px;
+  margin-right: 15px;
+  border-radius: 5px;
+}
+#gallary-section h1
+{
+  text-align: center;
+ }
+#gallary  
+{
+
+display: flex;
+flex-wrap: wrap;
+}
+.gallary-box
+{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  flex-grow: 2;
+  background: white;
+  border: 2px solid black;
+  border-radius: 15px;
+  margin: 20px;
+  background-color: #D1D0D0;
+  height: 300px;
+  width: 300px;
+  padding: 0 30px;
+  font-size: 20px;
+  text-align: justify;
+}
+/* .gallary-box ::before{
+  content: "";
+  background: url(https://i.pinimg.com/736x/12/49/a5/1249a57ee8383fa19137356f35608842.jpg) no-repeat center center/cover;
+  height: 100%;
+  width: 100%;
+  z-index: 0;
+  opacity: 0.7;
+  border-radius: 15px;
+} */
+@media screen and (max-width: 600px) {
+  #nav {
+    position: fixed;
+    top: 0px;
+    left: -250px;
+    width: 250px;
+    height: 100%;
+    background: #042331;
+    transition: all 0.5s ease;
+  }
+  #nav-item-group {
+    display: block;
+  }
+  #close {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .material-icons.md-48 {
+    display: block;
+    font-size: 48px;
+    margin-left: 15px;
+  }
+  #c-name {
+    display: block;
+ 
+}

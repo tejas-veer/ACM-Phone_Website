@@ -27,11 +27,15 @@
   font-size: 20px;
   color: white;
 }
+.nav-item a {
+  text-decoration: none;
+}
 .nav-item:hover {
   background-color: rgb(188, 224, 255);
 }
 .active {
-  background-color: green;
+  background-color: rgb(86, 230, 255);
+  padding-bottom: 15px;
 }
 #c-name {
   display: none;
@@ -57,8 +61,7 @@
     display: block;
   }
   .nav-item a {
-    text-decoration: none;
-    font-size: 55px;
+    font-size: 20px;
   }
   #close {
     display: flex;
@@ -82,7 +85,7 @@
     width: 100%;
   }
   #cat-section {
-    background: red;
+    background: rgb(212, 212, 212);
     display: flex;
     flex-direction: column;
     /* width: 150%; */
@@ -96,13 +99,14 @@
     overflow-x: scroll;
   }
   .cat-box {
-    background-color: aqua;
+    background-color: rgb(196, 196, 196);
     height: 100px;
     width: 300px;
     display: flex;
     align-items: center;
     padding: 7px;
     margin: 0px 5px;
+    border-radius: 10px;
   }
   .cat-box img {
     height: auto;
