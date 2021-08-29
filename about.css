@@ -1,16 +1,15 @@
-body {
-  /* background-image: url('https://image1.masterfile.com/getImage/ODQ2LTAyNzk2MDgwZW4uMDAwMDAwMDA=AP7J8X/846-02796080en_Masterfile.jpg'); */
-  background-color: gainsboro;
+/* body {
+  background-image: url('https://image1.masterfile.com/getImage/ODQ2LTAyNzk2MDgwZW4uMDAwMDAwMDA=AP7J8X/846-02796080en_Masterfile.jpg');
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   opacity: 0.9;
   overflow-y: scroll;
-}
+} */
 #heading {
   text-align: center;
-  color: white;
+  color: black;
   margin: 20px 0px;
 }
 #about {
@@ -25,6 +24,6 @@ body {
 #about-para p {
   color: rgb(255, 255, 255);
   font-size: 20px;
-  margin: 30px 60px;
+  margin: 30px 20px;
   text-justify: newspaper;
 }
