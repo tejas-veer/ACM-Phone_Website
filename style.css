@@ -1,8 +1,8 @@
 :root {
-  --theme-color: rgb(123, 255, 130);
-  background-image: linear-gradient(to right, #ffd26f, #3677ff);
+  --theme-color: white;
+  --click: rgb(230, 230, 230);
+  --background-gradient: linear-gradient(to right, #ebf4f5, #b5c6e0);
 }
-
 * {
   margin: 0;
   padding: 0;
@@ -64,19 +64,31 @@ body {
   align-items: center;
   justify-content: center;
   margin-left: 3rem;
+  cursor: pointer;
 }
 #c-name img {
   width: 30px;
 }
 
 #btn-login {
-  /* background-color: rgb(154, 147, 255); */
-  background-image: linear-gradient(to right, red, yellow);
+  color: white;
+  background-color: #8c00ff;
+  /* background-image: linear-gradient(to right, #9bafd9, #103783); */
   height: 35px;
   width: 100px;
-  border: 2px solid black;
+  border: 2px solid rgb(87, 87, 87);
   border-radius: 5px;
   margin-right: 2rem;
+  cursor: pointer;
+  box-shadow: 4px 5px 15px #8888;
+}
+#btn-login:hover {
+  background-color: #a02cff;
+  /* background-image: linear-gradient(to right, #9bafd9, #103783); */
+  color: white;
+}
+#btn-login:active {
+  border: 2px solid black;
 }
 #footer p {
   display: block;

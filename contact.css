@@ -44,6 +44,7 @@
   padding: 10px;
   background-color: var(--theme-color);
   box-shadow: 4px 5px 15px #8888;
+  background-image: var(--background-gradient);
 }
 #form-button {
   background-color: red;
